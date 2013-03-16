@@ -1,6 +1,5 @@
 name "production"
 description "Production Environment"
 default_attributes "resolv" => {
-  "nameservers" => ["8.8.8.8", "8.8.4.4"]
+  "nameserver" => "8.8.8.4"
 }
-
