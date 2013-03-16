@@ -6,3 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+cookbook_file "/etc/resolv.conf" do
+  action :create
+  owner "root"
+  group "root"
+  mode "0644"
+end
